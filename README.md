@@ -34,6 +34,13 @@ Response:
 ```
 Array with the objects [brands:[], categories[]].
 ```
+This list have some important keys:
+c = category (tv|slot|virtual|poker|etc)
+m = mode (mobile|web)
+g = game name
+b = brand name (univerlsalpoker|sportrace|etc.)
+id = game id
+p = internal category (is for api use, please doesnt filter by this)
 ## Create User
 Is necessary to register your user at the first time he trying to play with us.
 ```
