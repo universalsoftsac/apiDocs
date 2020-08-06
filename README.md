@@ -113,7 +113,8 @@ Body Params	{
  movement:string(BET),
  amount:float,
  sessionid: alphanumeric,
- game:string
+ gameid:string,
+ game_name:string
 }
 ```
 Response: 
