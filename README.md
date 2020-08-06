@@ -124,7 +124,7 @@ balance:float
 }
 ```
 Trxid: the transaction id of us.
-Movement: type of movement (BET, WIN, LOSE, REFOUND), which in this case will be just bet.
+Movement: type of movement (BET, WIN, LOSE, REFUND), which in this case will be just bet.
 Amount: bet amount.
 Sessionid: user session id.
 Game: game id
