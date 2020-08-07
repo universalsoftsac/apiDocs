@@ -138,7 +138,7 @@ POST	https://[yourserver_ip]/betResult
 
 Body Params	{
  trxid:string,
- movement:string(WIN,REFOUND),
+ movement:string(WIN,REFUND),
  amount:float,
  sessionid: alphanumeric,
  gameid: string,
@@ -146,6 +146,7 @@ Body Params	{
  betReference:string| null
 }
 ```
+if REFUND is about BET, add amount to user. but if REFUND is about WIN, remove amount from user.
 
 Response	
 ```
