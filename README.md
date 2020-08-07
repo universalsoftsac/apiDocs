@@ -141,6 +141,8 @@ Body Params	{
  movement:string(WIN,REFOUND),
  amount:float,
  sessionid: alphanumeric,
+ gameid: string,
+  game_name: string,
  betReference:string| null
 }
 ```
