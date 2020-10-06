@@ -266,7 +266,7 @@ iq: Iq Games
 when you catch an error, you must send Http Status: 200 and a json Message:
 ```
 {
- statuns:0,
+ status:0,
  code:ERROR_CODE,
  message:'',(Optional)
 }
