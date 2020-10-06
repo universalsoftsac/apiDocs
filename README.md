@@ -143,8 +143,9 @@ Body Params	{
  amount:float,
  sessionid: alphanumeric,
  gameid: string,
-  game_name: string,
- betReference:string| null
+ game_name: string,
+ betReference:string| null,
+ custom: string, (optional)
 }
 ```
 if REFUND is about BET, add amount to user. but if REFUND is about WIN, remove amount from user.
