@@ -114,7 +114,8 @@ Body Params	{
  amount:float,
  sessionid: alphanumeric,
  gameid:string,
- game_name:string
+ game_name:string,
+ custom:string, (optional)
 }
 ```
 Response: 
