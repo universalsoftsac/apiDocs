@@ -156,7 +156,7 @@ Response
 }
 ```
 Trxid: the transaction id of us.
-Movement: type of movement (WIN, LOSE, REFOUND)
+Movement: type of movement (WIN, REFOUND)
 Amount: bet amount.
 Sessionid: user session id. 
 transactionReference: if you win the bet, the value you will take will be the id of the transaction where you made the bet
@@ -260,6 +260,26 @@ slot: Slot  Games
 slot_live: Slot Live Games
 poker: Poker Games
 iq: Iq Games  
+```
+
+### Error Codes
+when you catch an error, you must send Http Status: 200 and a json Message:
+```
+{
+ statuns:0,
+ code:ERROR_CODE,
+ message:'',(Optional)
+}
+```
+
+where error code:
+```
+INSUFFICIENT_FUNDS: When the bet > than user balance.
+TRX_DUPLICATED: when transaction was register before.
+USER_NOT_FOUND: when the user is not found.
+BETREFERENCE_NOT_FOUND: when bet is not found.
+SESSION_NOT_FOUND: when user session is not found.
+INTERNAL_ERROR: unknown error.
 ```
 
 
