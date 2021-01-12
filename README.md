@@ -16,6 +16,7 @@ Query Params:
 page [number] (default=1)
 perPage [number] (default=100)
 p [String] (optional)
+g [String] (optional) // for search game with part or full name
 ```
 Response:
 ```
