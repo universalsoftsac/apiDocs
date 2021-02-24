@@ -17,6 +17,8 @@ page [number] (default=1)
 perPage [number] (default=100)
 p [String] (optional)
 g [String] (optional) // for search game with part or full name
+n [int] (optional) // 1 for list only new games
+o [int] (optional) // 1 for list only popular games
 ```
 Response:
 ```
