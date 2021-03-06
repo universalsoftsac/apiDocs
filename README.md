@@ -66,7 +66,9 @@ Response:
  val: { user: string, balance: string } 
 }
 ```
+*if user register successfully, response get a status true*
 *if the user already exists the status parameter will be false with an error message.*
+*others errors return paramter status false. for example wrong currency. it will be specified in the error message*
 
 ### Start Session
 Before user launch a game, he need get a token session.
