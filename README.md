@@ -90,7 +90,7 @@ Response:
   }
 }
 ```
-
+** Some errors with httpstatus 500 could not have a json Format. Please take care for this kind of responses.
 ## Launch Game
 To launch a game you need to redirect the url. 
 ```
