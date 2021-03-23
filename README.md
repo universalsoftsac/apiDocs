@@ -36,7 +36,7 @@ phrase:(string),
 ```
 Response:
 ```
-Array with the objects [brands:[], categories[]].
+Array with the objects [brands:[], categories[], types:[]].
 ```
 This list have some important keys:
 c = category (tv|slot|virtual|poker|etc)
