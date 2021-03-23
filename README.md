@@ -19,6 +19,7 @@ p [String] (optional)
 g [String] (optional) // for search game with part or full name
 n [int] (optional) // 1 for list only new games
 o [int] (optional) // 1 for list only popular games
+t [String] (optional) // type of game
 ```
 Response:
 ```
@@ -39,6 +40,7 @@ Array with the objects [brands:[], categories[]].
 ```
 This list have some important keys:
 c = category (tv|slot|virtual|poker|etc)
+t = type (Clasicos, Juego de Temporada, Juego Mesa, Raspa y Gana, Ruleta)
 m = mode (mobile|web)
 g = game name
 b = brand name (univerlsalpoker|sportrace|etc.)
