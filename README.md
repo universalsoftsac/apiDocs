@@ -151,7 +151,7 @@ Body Params	{
  sessionid: alphanumeric,
  gameid: string,
  game_name: string,
- betReference:string| null,
+ referenceBet:string| null,
  custom: string, (optional)
 }
 ```
