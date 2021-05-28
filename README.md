@@ -11,7 +11,7 @@ ClientID=`mybetstore`
 The gamelist command show you all games allowed for your client ID
 
 ```
-GET http://[universalDomain]/gamelist
+GET http://[universalDomain]/api/gamelist
 Query Params: 
 page [number] (default=1)
 perPage [number] (default=100)
@@ -30,7 +30,7 @@ Array with the game objects.
 The gamelist command show you all games allowed for your client ID
 
 ```
-GET http://[universalDomain]/gamefilter
+GET http://[universalDomain]/api/gamefilter
 Headers:
 phrase:(string),
 ```
@@ -96,7 +96,7 @@ Response:
 ## Launch Game
 To launch a game you need to redirect the url. 
 ```
-GET	https://[universalDomain]/launch
+GET	https://[universalDomain]/api/launch
 Query Params:	{
  sessionid: alphanumeric,
  gameid: string,
