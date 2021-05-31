@@ -196,6 +196,8 @@ This method allow you change constantly your client ip conection when you are on
 ```
 PUT	https://[universalDomain]/api/client/security/address
 
+Headers['phrase'] = string
+
 Body Params	{
     phrase: string,
     ip: string
