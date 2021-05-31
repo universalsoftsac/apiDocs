@@ -50,6 +50,7 @@ p = internal category (is for api use, please doesnt filter by this)
 Is necessary to register your user at the first time he trying to play with us.
 ```
 POST	https://[universalDomain]/api/createuser
+Headers['phrase'] = string
 Body Params: {
  username: string(20) ^[A-Za-z0-9]+$,
  firstname:string(20),
