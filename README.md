@@ -58,7 +58,8 @@ Body Params: {
  country: text, (PE, BR, PT, etc)
  currency: text, (PEN, USD),
  balance:float,
- gender:M|F
+ gender:M|F,
+ siteid: string(20) ^[A-Za-z0-9]+$
 }
 ```
 Response:	
