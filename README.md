@@ -124,6 +124,7 @@ Body Params	{
  sessionid: alphanumeric,
  gameid:string,
  game_name:string,
+ update:bool, //true=> trx need update
  custom:string, (optional)
 }
 ```
@@ -154,6 +155,7 @@ Body Params	{
  gameid: string,
  game_name: string,
  referenceBet:string| null,
+ update:bool, //true=> trx need update
  custom: string, (optional)
 }
 ```
