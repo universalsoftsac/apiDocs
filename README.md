@@ -95,6 +95,8 @@ Response:
 }
 ```
 ** Some errors with httpstatus 500 could not have a json Format. Please take care for this kind of responses.
+
+
 ## Launch Game
 To launch a game you need to redirect the url. 
 ```
@@ -188,6 +190,21 @@ Response
 {
  status:1,
  balance:float
+}
+```
+### Refresh Token
+Some games can need refresh the session token.
+```
+POST	https://[yourserver_ip]/refreshToken
+Body Params: {
+ token: string,
+ new_token: string
+}
+```
+Response: 
+```
+{
+  statu: 1,
 }
 ```
 
